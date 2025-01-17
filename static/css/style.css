@@ -1,0 +1,72 @@
+/* Taiwanese-inspired Colors */
+:root {
+    --taiwan-red: #de1c31; /* Flag Red */
+    --taiwan-blue: #002868; /* Flag Blue */
+    --taiwan-white: #ffffff; /* Flag White */
+    --taiwan-green: #008450; /* Tea Culture Green */
+    --taiwan-gold: #f8b500; /* Prosperity Gold */
+}
+
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    color: var(--taiwan-blue);
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Header and Navigation Bar */
+.navbar {
+    background-color: var(--taiwan-red);
+}
+
+.navbar a {
+    color: var(--taiwan-white) !important;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--taiwan-gold) !important;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--taiwan-blue);
+    color: var(--taiwan-white);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--taiwan-green);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--taiwan-gold);
+    color: var(--taiwan-blue);
+}
+
+/* Titles and Headings */
+h1, h2, h3 {
+    color: var(--taiwan-red);
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Product Cards */
+.card {
+    border: 1px solid var(--taiwan-blue);
+}
+
+.card-title {
+    color: var(--taiwan-green);
+    font-weight: bold;
+}
+
+.card-text {
+    color: var(--taiwan-blue);
+}
